@@ -33,6 +33,18 @@
     font-weight: bold;
  }
 
+ .titleII{
+    font-family:'Spectral', serif;
+    text-align: center;   
+    color: grey; 
+    display: block;
+    font-size: 60px ;
+
+    padding: 20px 0;
+    justify-content: center;
+    font-weight: bold;
+ }
+
 .topicos{
     color:rgb(236, 233, 228);
 }
@@ -49,3 +61,24 @@
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
  }
+
+ .texto{
+    color: black;
+    margin: 0 16px;
+    padding: 20px 0;
+    justify-content: center;
+    text-align:justify;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif ;
+    margin-inline-start: 80px;    
+    margin-inline-end: 80px;
+ }
+
+ .form-imput-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin: 0;
+    width: 300px;
+}

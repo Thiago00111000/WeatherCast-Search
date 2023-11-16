@@ -7,11 +7,12 @@
     <title>WeatherCast-Menu</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -26,8 +27,18 @@
         <h1 class="title">WeatherCast</h1>
         </section>
     </header>
-    <section class="wall">
-        <h1>Metereologia</h1>
+    <section>
+        <h1 class="titleII">Verificar o Clima</h1>
+        <span></span>
+        <div class="form-imput-container">
+            <input type="text" placeholder="Selecione uma Cidade..." id="city-input">
+            <button id="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+        <div id="weather-data">
+
+        </div>
     </section>
 </body>
 
