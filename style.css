@@ -83,13 +83,14 @@
     justify-content: center;
     align-items: center;
     height: 50vh;
+    background-color:#fdfdfd;
  }
 
  .hide{
     display: none;
  }
 
- .container{
+ .details-container{
     background-color: grey;
     box-shadow: rgb(0,0,0);
  }
@@ -103,4 +104,55 @@
     width: 300px;
 }
 
+.form-imput{
+   padding: 0.8rem;
+   border: none;
+   flex: 0.1;
+   border-radius: 4px;
+}
 
+.form-h3{
+   margin-bottom: 1rem;
+}
+
+.form-button{
+   padding: 0.8rem;
+   min-width: 50px;
+   margin-left: 8px;
+   background-color: #fdfdfd;
+   border: none;
+   cursor: pointer;
+}
+
+#weather-data{
+   border-top: 1px solid #000000;
+   margin-top: 1.5rem;
+   padding-top: 1.5rem;
+   text-align: left;
+}
+
+#weather-deata h2{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 0.6rem;
+}
+
+#weather-data h2 i{
+   font-size: 1rem;
+}
+
+#weather-data span{
+   margin: 0.6rem;
+}
+
+#description-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0.6rem 0;
+}
+
+#details-container{
+   
+}
