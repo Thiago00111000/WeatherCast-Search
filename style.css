@@ -1,5 +1,7 @@
 *{margin: 0; padding: 0;}
 
+
+
 .banner{
     background-image: url(Nuvens.png);
     height: 100%;
@@ -74,6 +76,24 @@
     margin-inline-end: 80px;
  }
 
+ .informacional{
+    font-family:'Spectral', serif;
+    font-size: large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+ }
+
+ .hide{
+    display: none;
+ }
+
+ .container{
+    background-color: grey;
+    box-shadow: rgb(0,0,0);
+ }
+
  .form-imput-container{
     display: flex;
     justify-content: center;
@@ -82,3 +102,5 @@
     margin: 0;
     width: 300px;
 }
+
+
