@@ -11,6 +11,8 @@
     size: 500px;
     background-repeat:no-repeat;
     color: #ffffff;
+    
+    justify-content:baseline;
 }
 
 .header{
@@ -76,6 +78,10 @@
     margin-inline-end: 80px;
  }
 
+.conteudo{
+   background-color: #fefefe;
+}
+
  .informacional{
     font-family:'Spectral', serif;
     font-size: large;
@@ -84,14 +90,31 @@
     align-items: center;
     height: 50vh;
     background-color:#fdfdfd;
+
+ }
+
+.icon{
+   height:24px;
+}
+
+.teclado {
+   background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+   
+   border-radius: 30px;
+   display: grid;
+   gap: 10px;
+   grid-template-columns: repeat(3, 1fr);
+   padding: 10px;
  }
 
  .hide{
     display: none;
  }
 
- .details-container{
-    background-color: grey;
+
+
+ #details-container{
+    background-color: rgb(255, 255, 255);
     box-shadow: rgb(0,0,0);
  }
 
@@ -101,12 +124,21 @@
     align-items: center;
     height: 10vh;
     margin: 0;
+    border: none;
     width: 300px;
+
+    
+   font-size: 16px;
+   background-color: #fff;
+   border-radius: 26px;
+   border: 1px solid #757575;
+   padding: 6px 0 6px 12px;
 }
+
 
 .form-imput{
    padding: 0.8rem;
-   border: none;
+   border:#000000;
    flex: 0.1;
    border-radius: 4px;
 }
@@ -128,7 +160,7 @@
    border-top: 1px solid #000000;
    margin-top: 1.5rem;
    padding-top: 1.5rem;
-   text-align: left;
+   text-align: center;
 }
 
 #weather-deata h2{
@@ -139,7 +171,7 @@
 }
 
 #weather-data h2 i{
-   font-size: 1rem;
+   font-size: 0.5rem;
 }
 
 #weather-data span{
@@ -153,6 +185,19 @@
    margin: 0.6rem 0;
 }
 
+#description{
+   font-weight: bold;
+   text-transform: capitalize;
+}
+
 #details-container{
-   
+   display:grid;
+   justify-content: center;
+   align-items: center;
+}
+
+#details-container #umidity{
+  border-right: 1px solid black;
+   margin: 0.6rem;
+   padding: 0.6rem;
 }
