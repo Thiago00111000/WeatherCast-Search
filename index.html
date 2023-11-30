@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WeatherCast-Menu</title>
+    <title>WeatherCast-Clima</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <script src="script.js" defer></script>
@@ -29,101 +29,41 @@
     </header>
     <section class="conteudo">
         <h1 class="titleII">Verificar o Clima</h1>
-        <section class="folder">
         <div class="informacional">
-        <!----------------------------------------------------------------------------->
-        <div class="form-imput">
-        <div class="form-imput-container">
-            <input type="text" placeholder="Selecione uma Cidade..." id="city-input">
-            <button class="teclado" id="search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-        </div>
-        </div>
-        <!----------------------------------------------------------------------------->
-        <div id="weather-data">
-            <h2>
-            <img class="icon" src="pin-location-icon.png">
-            <span id="city">Indefinido</span>
-            </h2>
-            <div id="description-container">
-                <p id="description">Indefinido
-                <!--<img src="https://openweathermap.org/img/wn/01d.png" alt="" id="weather-icon">-->
-                </p>
+            <div class="container">
+            <!----------------------------------------------------------------------------->
+            <div class="form-h3">
+            <div class="form-imput">
+            <div class="form-imput-container">
+                <input type="text" placeholder="Procurar uma Cidade..." id="city-input">
+                <button class="form-button" id="search">
+                    <div id="details-container"><span>Pesquisar</span></div>
+                </button>
             </div>
-            <p id="temperature"><span>0</span>&deg;C</p>
-            <div id="details-container">
-                <p id="humidity">Umidade:<span>0%</span></p>
-                <p id="wind">Ventos:<span>0 km/h</span></p>
-                <p id="pressure">Pressão:<span>0 hPa</span></p>
+            </div>
+            </div>
+            <!----------------------------------------------------------------------------->
+            <div id="weather-data">
+                <h2>
+                <img class="icon" src="pin-location-icon.png">
+                <span id="city">Indefinido</span>
+                </h2>
+                <div id="description-container">
+                    <p id="description">Indefinido
+                    <!--<img src="https://openweathermap.org/img/wn/01d.png" alt="" id="weather-icon">-->
+                    </p>
+                </div>
+                <p id="temperature"><span>0</span>&deg;C</p>
+                <div id="details-container">
+                    <p id="humidity">Umidade:<span>0%</span></p>
+                    <p id="wind">Ventos:<span>0 km/h</span></p>
+                    <p id="pressure">Pressão:<span>0 hPa</span></p>
+                </div>
+            </div>
             </div>
         </div>
-        </div>
-        </section>
     </section>
+    <footer>
+       <img src="Clouds.jpg"> 
+    </footer>
 </body>
-
-
-<!--Códigos Salvos-->
-<!--
-.menu{
-    padding: 0 20px;
-    text-align: center;
-    display: inline;
-    border:0px solid #c0c0c0;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 30px;
-    list-style:none;
-    color:#fdffff;
-}
-
-
-
-    float:left;
-
-    .menu li{
-    position:relative;
-    float:left;
-    border-right:0px solid #c0c0c0;
-    }
-    .menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
-    
-       .menu li a:hover{
-        background:#333;
-        color:#fff;
-        -moz-box-shadow:0 3px 10px 0 #CCC;
-        -webkit-box-shadow:0 3px 10px 0 #ccc;
-        text-shadow:0px 0px 5px #fff;
-        }
-}
-    
-    .menu li  ul{
-    position:absolute;
-    top:25px;
-    left:0;
-    background-color:#fff;
-    display:none;
-    }
-    
-    .menu li:hover ul, .menu li.over ul{display:block;}
-    .menu li ul li{
-    border:1px solid #c0c0c0;
-    display:block;
-    width:150px;
-    }
-
-//{
-  "current": {
-    "time": "2022-01-01T15:00"
-    "temperature_2m": 2.4,
-    "wind_speed_10m": 11.9,
-  },
-  "hourly": {
-    "time": ["2022-07-01T00:00","2022-07-01T01:00", ...]
-    "wind_speed_10m": [3.16,3.02,3.3,3.14,3.2,2.95, ...],
-    "temperature_2m": [13.7,13.3,12.8,12.3,11.8, ...],
-    "relative_humidity_2m": [82,83,86,85,88,88,84,76, ...],
-  }
-}
-    
--->
